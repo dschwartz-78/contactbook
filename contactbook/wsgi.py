@@ -14,6 +14,6 @@ exec(open(this_file).read(), {'__file__': this_file})
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'contactbook.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'contactbook.contactbook.settings')
 
 application = get_wsgi_application()

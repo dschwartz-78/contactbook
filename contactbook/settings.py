@@ -25,7 +25,7 @@ SECRET_KEY = 'ldm0e9@x5tlv@mo8itewatmtx%vc(n11(t$3y@)ko8@*0ed!pk'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ggomakv.cluster030.hosting.ovh.net', '127.0.0.1']
 
 
 # Application definition
